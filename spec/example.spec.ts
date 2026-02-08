@@ -24,7 +24,7 @@ test('Incorrect credentials', async ({ page }) => {
 })
 
 //homework17
-test('User can sign in with random credentials', async ({ page }) => {
+test('Verify error popup with random credentials', async ({ page }) => {
     const randomUsername = faker.internet.username();
     const randomPassword = faker.internet.password();
 
