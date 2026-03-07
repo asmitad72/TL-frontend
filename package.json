@@ -12,5 +12,8 @@
     "http-status-codes": "^2.3.0",
     "typescript": "^5.5.3"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@faker-js/faker": "^10.3.0"
+  }
 }
